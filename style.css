@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.788);
+    height:80px;
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px
+}
+.left{
+    float: left;
+}
+
+#a{
+    width: 30px;
+    padding-top: 55px;
+    background-color: #3689d6
+}
+
+#b{
+    width: 910px;
+    margin-left: 20px;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold
+}
+
+hr{
+    clear: both;
+    margin-top: 79px;
+    height: 1px;
+    background-color:rgb(231, 230, 230);
+    border: none
+}
+
+.main{
+    height: 340px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.circle{
+    margin-left: 488px;
+    height: 125px;
+    width:125px;
+    border-radius: 50%;
+    background-image: url(img/one.jpg);
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #225280;
+    font-size: 30px;
+    font-family: 'Microsoft YaHei';
+    font-weight: lighter
+}
+
+table {
+    font-style: initial;
+    font-weight: bold;
+    padding-left: 20px
+}
+
+h3 {
+    color: #225280;
+    padding-left: 10px;
+}
+
+h4{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.english{
+    animation: change 3s;
+    text-align: center;
+    width: 150px;
+    height: 26px;
+    background-color: #6b97c9;
+    margin-left: 475px;
+}
+
+@keyframes change{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    vertical-align: baseline
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.proposal{
+    transition: background-color 3s;
+    background-color: #f5f7fa;
+    height: 520px;
+}
+
+.proposal:hover{
+    background-color: #c0d4e9;
+}
+
+
+.basic{
+    float: left;
+    height: 330px;
+    width: 330px;
+    border-radius: 3%;
+    margin-top: 100px;
+    background-color: white
+}
+
+#second{
+    margin-left: 40px;
+    padding-right: 15px
+}
+
+.basic>h4{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+li{
+    text-align: left;
+    font-size: 17px;
+    margin-top: 10px
+}
+
+
+
+
+
+    
